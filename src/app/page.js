@@ -13,7 +13,8 @@ export default function Home() {
       <h1>Session 002</h1>
       <StudentScore />
       <hr></hr>
-      
+      {/* <SixteenBox /> */}
+      <SlideShow/>
     </>
   )
 }
