@@ -1,0 +1,45 @@
+.viweImg {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.viweBigImg {
+    width: 650px;
+    height: 600px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-style: 40px;
+    font-weight: bold;
+}
+
+.smallImg {
+    margin: 20px;
+}
+
+.btn {
+    font-size: 25px;
+    position: absolute;
+}
+
+.btnNext {
+    left: -80px;
+    top: 350px;
+}
+
+.btnPrev {
+    right: -80px;
+    top: 350px;
+}
+
+.big {
+    position: relative;
+}
