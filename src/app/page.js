@@ -1,4 +1,5 @@
 import Counter from "./Component/Counter/index"
+import Library from "./Component/LibraryApp"
 import SixteenBox from "./Component/SixteenBox"
 import SlideShow from "./Component/SlideShow"
 import StudentScore from "./Component/StudentScore"
@@ -13,8 +14,11 @@ export default function Home() {
       <h1>Session 002</h1>
       <StudentScore />
       <hr></hr>
-      {/* <SixteenBox /> */}
+      <SixteenBox />
+      <hr></hr>
       <SlideShow/>
+      <hr></hr>
+      <Library />
     </>
   )
 }
